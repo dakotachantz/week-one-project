@@ -24,21 +24,50 @@ Input Border Bottom (Focus): #967343
 body {
     background-color: #F2F1E8;
     color: #131511;
+    margin: 0 auto;
 }
 
 .container {
     /* flexbox goes here */
     display: flex;
+    flex-direction: column;
+}
+
+nav {
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 0px 3px 3px #E5E4DF;
 }
 
 .nav-bar {
     background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-bar a {
     color: #2B2F26;
+    padding: 20px;
+    text-transform: uppercase;
 }
 
 .nav-bar a:hover {
     color: #CD5D67;
+}
+
+.product-images {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.product-images img {
+    width: 25%;
+    height: 25%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #2B2F26;
+    color: #B7AE99;
 }
