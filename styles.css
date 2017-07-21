@@ -34,6 +34,12 @@ body {
     flex-wrap: wrap;
 }
 
+header {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+}
+
 nav {
     /* offset-x | offset-y | blur-radius | color */
     box-shadow: 0px 3px 3px #E5E4DF;
@@ -41,9 +47,8 @@ nav {
 
 .nav-bar {
     background-color: #FFFFFF;
-    /* text-align: center; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 100%;
 }
 
@@ -51,10 +56,9 @@ nav {
     color: #2B2F26;
     padding: 20px;
     text-transform: uppercase;
-    text-align: center;
 }
 
-.nav-bar img {
+.nav-logo img {
     align-self: center;
     width: 40px;
     height: 40px;
@@ -62,6 +66,11 @@ nav {
 
 .nav-bar a:hover {
     color: #CD5D67;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
 }
 
 .main-content {
@@ -106,8 +115,6 @@ img {
     height: calc(33.3% - 1rem);
 }
 
-
-}
 footer {
     background-color: #2B2F26;
     color: #B7AE99;
