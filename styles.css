@@ -41,7 +41,7 @@ nav {
 
 .nav-bar {
     background-color: #FFFFFF;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     justify-content: center;
     height: 100%;
@@ -51,15 +51,13 @@ nav {
     color: #2B2F26;
     padding: 20px;
     text-transform: uppercase;
+    text-align: center;
 }
 
-#logo {
-    float: left;
+.nav-bar img {
+    align-self: center;
     width: 40px;
     height: 40px;
-    /* position: relative;
-    right: 510px; */
-    /* margin: auto; */
 }
 
 .nav-bar a:hover {
