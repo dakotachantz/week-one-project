@@ -68,6 +68,10 @@ nav {
     color: #CD5D67;
 }
 
+a.selected, a:active {
+    color: #968772;
+}
+
 .nav-links {
     display: flex;
     justify-content: center;
