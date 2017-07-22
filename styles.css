@@ -87,6 +87,23 @@ Input Border Bottom (Focus): #967343
             justify-content: center;
         }
         
+        h1 {
+            font-size: 4rem;
+            text-align: center;
+            font-weight: 400;
+            margin: 0 auto;
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+            font-weight: 200;
+            margin: 0 auto;
+            padding-bottom: 30px;
+        }
+        
         .product-images p {
             background-color: #2B2F26;
             color: #F2F1E8;
@@ -133,7 +150,6 @@ Input Border Bottom (Focus): #967343
         .product-images {
             box-sizing: border-box;
             width: 100%;
-            /* background-color: tomato; */
             margin: 0 auto;
             padding: 10px;
         }
@@ -186,7 +202,13 @@ Input Border Bottom (Focus): #967343
             margin-bottom: 100px;
         }
         /* ABOUT STYLES */
-        /*         
+        
+        .sec1 img {
+            float: left;
+            height: 120px;
+            width: 150px;
+        }
+        /* 
         input {
             border-bottom: #968772;
             padding: 10px;
