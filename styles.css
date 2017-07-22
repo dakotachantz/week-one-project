@@ -185,6 +185,7 @@ Input Border Bottom (Focus): #967343
             /* align-content: center; */
             margin-bottom: 100px;
         }
+        /* ABOUT STYLES */
         /*         
         input {
             border-bottom: #968772;
@@ -214,7 +215,8 @@ Input Border Bottom (Focus): #967343
         
         footer {
             background-color: #2B2F26;
-            color: #B7AE99;
+            color: #F2F1E8;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
+            padding: 10px;
         }
