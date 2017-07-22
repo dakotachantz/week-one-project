@@ -70,7 +70,7 @@ Input Border Bottom (Focus): #967343
             color: #CD5D67;
         }
         
-        a.selected, a:active {
+        a, a.selected, a:active {
             color: #968772;
         }
         
@@ -196,17 +196,81 @@ Input Border Bottom (Focus): #967343
             background-color: white;
             display: flex;
             width: 50%;
-            z-index: 100;
+            /* z-index: 100; */
             flex-direction: column;
             /* align-content: center; */
             margin-bottom: 100px;
         }
         /* ABOUT STYLES */
         
-        .sec1 img {
+        .about-container:first-child h1 {
+            margin: 50px 0;
+        }
+        
+        .sec1, .sec2, .sec3 {
+            width: 65%;
+            margin: 0 auto;
+            line-height: 2.5rem;
+            font-size: 18.6px;
+        }
+        
+        .birdhouse img {
             float: left;
-            height: 120px;
-            width: 150px;
+            margin: 10px 30px 20px 0;
+        }
+        
+        blockquote {
+            display: inline-block;
+            text-align: left;
+            width: 88%;
+            margin: 0 auto;
+            font-style: italic;
+            border-left: 2px solid #968772;
+            padding-left: 25px;
+            font-size: 18px;
+        }
+        
+        section h1 {
+            background-image: url(images/background-3.jpg);
+            color: white;
+            background-size: cover;
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-position-y: -115px;
+        }
+        
+        .sec2 p, .sec3 h1 {
+            margin: 0 auto;
+        }
+        
+        .sec3 {
+            display: flex;
+            flex-flow: row wrap;
+            background-color: tomato;
+            border: 1px solid brown;
+            /* justify-content: center;
+            align-content: center; */
+        }
+        
+        .sec3 p {
+            flex: 4;
+            width: 40%;
+            border: 1px solid brown;
+        }
+        
+        .sec3 aside {
+            width: 100%;
+            flex: 1;
+            border: 1px solid brown;
+            align-self: center;
+            margin: 0 auto;
+        }
+        
+        aside p {
+            font-size: 12px;
+            align-self: center;
         }
         /* 
         input {
@@ -217,15 +281,15 @@ Input Border Bottom (Focus): #967343
         
         input:focus {
             border-bottom: #967343
-        } */
-        /* .form > * {
+        } 
+         .form > * {
         width: 80%;
         text-align: center;
 
         margin: 0 auto;
         padding: 20px;
-    } */
-        /* 
+    } 
+        /*
 .news-content {
     background-image: url(images/background-1.jpg);
     height: 900px;
