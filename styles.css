@@ -183,26 +183,6 @@ Input Border Bottom (Focus): #967343
         .sm-box:nth-child(3) {
             flex: 2;
         }
-        /* NEWSLETTER STYLES */
-        
-        #news-body {
-            background-image: url("images/background-2.jpg");
-            background-size: 100%;
-            display: flex;
-            min-height: 100vh;
-            flex-direction: column;
-        }
-        
-        .form {
-            margin: 0 auto;
-            background-color: white;
-            display: flex;
-            width: 50%;
-            /* z-index: 100; */
-            flex-direction: column;
-            /* align-content: center; */
-            margin-bottom: 100px;
-        }
         /* ABOUT STYLES */
         
         .about-container h3 {
@@ -249,38 +229,58 @@ Input Border Bottom (Focus): #967343
             background-position-y: -115px;
         }
         
+        #stretch-image {
+            margin: 20px auto 10px auto;
+        }
+        
+        .sec2 {
+            padding: 10px;
+        }
+        
         .sec2 p, .sec3 h1 {
             margin: 0 auto;
+        }
+        
+        .facilities {
+            margin: 0 auto;
+            width: 65%;
+        }
+        
+        .facilities h3 {
+            margin-bottom: 10px;
         }
         
         .sec3 {
             display: flex;
             flex-flow: row wrap;
-            background-color: tomato;
-            border: 1px solid brown;
             height: 40vh;
         }
         
-        .sec3 p {
+        .sec3 p:first-child {
             flex: 4;
-            width: 60%;
-            border: 1px solid brown;
+            height: 100%;
+            margin: 0 auto;
+            padding: 0 10px 0 0;
+            text-align: left;
         }
         
         .sec3 aside {
-            width: 20%;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
             flex: 1;
-            border: 1px solid brown;
             align-self: center;
             margin: 0 auto;
+            height: 90%;
+            width: 65%;
         }
         
         .sec3 aside p {
             font-size: 12px;
-            margin: 0 auto;
+            margin: 5px 5px;
+            line-height: 1.4rem;
+            width: 160px;
+            align-self: center;
         }
         
         .sec3 aside img {
@@ -306,33 +306,63 @@ Input Border Bottom (Focus): #967343
         }
         
         table tr:nth-child(even) {
-            background-color: #967343;
+            background-color: #E8E0D0;
         }
-        /* 
+        /* NEWSLETTER STYLES */
+        
+        #news-body {
+            background-image: url("images/background-2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center top;
+            display: flex;
+            height: 80vh;
+            flex-direction: column;
+        }
+        
+        .form {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px;
+            height: 60%;
+        }
+        
+        .form h1 {
+            font-weight: lighter;
+            font-size: 30px;
+        }
+        
+        .form p {
+            font-size: 20px;
+        }
+        
         input {
-            border-bottom: #968772;
+            border: none;
+            border-bottom: 2px solid #968772;
             padding: 10px;
-            margin: auto;
+            outline: none;
+            margin: 10px;
+            font-size: 18px;
         }
         
         input:focus {
-            border-bottom: #967343
-        } 
-         .form > * {
-        width: 80%;
-        text-align: center;
-
-        margin: 0 auto;
-        padding: 20px;
-    } 
-        /*
-.news-content {
-    background-image: url(images/background-1.jpg);
-    height: 900px;
-    background-size: 900px;
-    width: 100%;
-    background-repeat: no-repeat;
-} */
+            border: none;
+            border-bottom: 2px solid #967343;
+            outline: none;
+        }
+        
+        input#submit {
+            background-color: #968772;
+            color: #F2F1E8;
+            width: 120px;
+            padding: 15px;
+            margin: 20px auto;
+        }
         /* footer styles */
         
         footer {
@@ -341,4 +371,5 @@ Input Border Bottom (Focus): #967343
             display: flex;
             justify-content: flex-start;
             padding: 20px;
+            padding-left: 30px;
         }
