@@ -321,7 +321,6 @@ Input Border Bottom (Focus): #967343
             background-image: url("images/background-2.jpg");
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: center top;
             display: flex;
             height: 100vh;
             flex-direction: column;
@@ -331,9 +330,14 @@ Input Border Bottom (Focus): #967343
             height: 70vh;
             width: 80%;
             display: flex;
+            /* flex: 1; */
             justify-content: center;
             align-items: center;
             margin: 0 auto;
+        }
+        
+        .news-container {
+            flex: 1;
         }
         
         .form {
@@ -345,13 +349,14 @@ Input Border Bottom (Focus): #967343
             width: 60%;
             text-align: center;
             margin: 0 auto;
-            padding: 15px;
+            padding: 15px 15px 0 15px;
             height: 50vh;
         }
         
         .form h1 {
             font-weight: lighter;
             font-size: 30px;
+            padding-top: 10px;
         }
         
         .form p {
