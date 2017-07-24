@@ -72,6 +72,7 @@ Input Border Bottom (Focus): #967343
         }
         
         .nav-bar a:hover {
+            transition: color 1s ease;
             color: #CD5D67;
         }
         
@@ -211,6 +212,7 @@ Input Border Bottom (Focus): #967343
         }
         
         .sec1 a:hover {
+            transition: color .5s ease;
             color: #FFFFFF;
         }
         
@@ -234,6 +236,10 @@ Input Border Bottom (Focus): #967343
             justify-content: center;
             align-items: center;
             background-position-y: -115px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         
         #stretch-image {
@@ -382,9 +388,10 @@ Input Border Bottom (Focus): #967343
             border: none;
             border-bottom: 2px solid #967343;
             outline: none;
+            transition: color 1s ease;
         }
         
-        input#submit {
+        input#signupButton {
             background-color: #968772;
             color: #F2F1E8;
             width: 130px;
@@ -392,7 +399,7 @@ Input Border Bottom (Focus): #967343
             margin: 30px auto 0 auto;
         }
         
-        input#submit:hover {
+        input#signupButton:hover {
             background-color: #967343;
             color: #FFFFFF;
         }
@@ -401,8 +408,6 @@ Input Border Bottom (Focus): #967343
         footer {
             background-color: #2B2F26;
             color: #F2F1E8;
-            display: flex;
-            justify-content: flex-start;
             padding: 20px;
             padding-left: 30px;
         }
